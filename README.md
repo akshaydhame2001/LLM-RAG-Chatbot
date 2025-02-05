@@ -4,6 +4,6 @@ This is a Conversational AI chatbot using Langchain, Huggigface transformers, LL
 
 ![app](images/app.png)
 
-## LAngSmith
+## LangSmith
 
 ![app](images/LCEL.png)
