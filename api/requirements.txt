@@ -1,7 +1,11 @@
 langchain
-langchain-openai
+langchain_huggingface
 langchain-core
 langchain_community
+transformers
+accelerate
+bitsandbytes
+sentence_transformers
 docx2txt
 pypdf
 langchain_chroma

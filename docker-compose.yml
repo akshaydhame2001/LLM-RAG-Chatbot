@@ -1,0 +1,22 @@
+version: "0.1"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./docs:/app/docs
+    environment:
+      - MODEL_PATH=meta-llama/Llama-3.2-1B-Instruct
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
