@@ -1,6 +1,6 @@
 # LLM RAG Chatbot
 
-This is a Conversational AI chatbot using Langchain, Huggigface transformers, LLama3, RAG, Chroma DB, SQLite, FastAPI and streamlit.
+This is a conversational AI chatbot using LangChain, Hugging Face Transformers, Llama 3, RAG, ChromaDB, SQLite, FastAPI, and Streamlit.
 
 ![app](images/app.png)
 
