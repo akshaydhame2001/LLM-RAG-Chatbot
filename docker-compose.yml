@@ -7,10 +7,6 @@ services:
       dockerfile: Dockerfile.api
     ports:
       - "8000:8000"
-    volumes:
-      - ./docs:/app/docs
-    environment:
-      - MODEL_PATH=meta-llama/Llama-3.2-1B-Instruct
 
   frontend:
     build:

@@ -1,11 +1,12 @@
 langchain
-langchain_huggingface
+# langchain_huggingface
+langchain_ollama
 langchain-core
 langchain_community
-transformers
-accelerate
-bitsandbytes
-sentence_transformers
+# transformers
+# accelerate
+# bitsandbytes
+#sentence_transformers
 docx2txt
 pypdf
 langchain_chroma

@@ -3,7 +3,8 @@ from enum import Enum
 from datetime import datetime
 
 class ModelName(str, Enum):
-    LLAMA32_1B = "meta-llama/Llama-3.2-1B-Instruct"
+    # LLAMA32_1B = "meta-llama/Llama-3.2-1B-Instruct"
+    LLAMA32_1B = "llama3.2:1b"
 
 class QueryInput(BaseModel):
     question: str
